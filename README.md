@@ -59,7 +59,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension GitHub.github-vscode-theme
 code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GraphQL.vscode-graphql
-code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension styled-components.vscode-styled-components
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension PKief.material-icon-theme
