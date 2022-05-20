@@ -6,14 +6,14 @@ It is often necessary to reinstall from scratch. in order not to do the installa
 
 ```json
 {
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Dracula",
   "security.workspace.trust.untrustedFiles": "open",
   "editor.fontSize": 11,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.bracketPairColorization.enabled": true,
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -34,35 +34,42 @@ It is often necessary to reinstall from scratch. in order not to do the installa
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "debug.javascript.autoAttachFilter": "smart",
-  "debug.allowBreakpointsEverywhere": true,
-  "debug.console.closeOnEnd": true,
   "explorer.confirmDelete": false,
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.activeIconPack": "react",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.codeActionsOnSave": {
+  
+  
+  },
+  "debug.javascript.autoAttachFilter": "smart",
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.debugByLinkOptions": "on",
+  "terminal.integrated.defaultProfile.osx": "zsh",
 }
 ```
 
 ### Extensions
 
 ```ssh
-code --install-extension alefragnani.Bookmarks
-code --install-extension apollographql.vscode-apollo
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension DotJoshJohnson.xml
+code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
+code --install-extension ecmel.vscode-html-css
 code --install-extension esbenp.prettier-vscode
-code --install-extension GitHub.github-vscode-theme
-code --install-extension GitHub.vscode-pull-request-github
 code --install-extension GraphQL.vscode-graphql
-code --install-extension styled-components.vscode-styled-components
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-vscode-remote.remote-containers
+code --install-extension mikestead.dotenv
 code --install-extension PKief.material-icon-theme
 code --install-extension redhat.vscode-yaml
-code --install-extension svelte.svelte-vscode
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension VisualStudioExptTeam.vscodeintellicode
 ```
